@@ -61,7 +61,7 @@ body {
     padding: 10px 30px;
 }
 
-a, .hero-description, .hero-right, .btn-sign-up, .text {
+a, .hero-description, .hero-right, .btn-sign-up, .text, .footer {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
@@ -135,7 +135,7 @@ a, .hero-description, .hero-right, .btn-sign-up, .text {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 150px;
+    min-height: 150px;
 }
 
 #last {
@@ -154,4 +154,11 @@ a, .hero-description, .hero-right, .btn-sign-up, .text {
 
 .sign-up-text .second {
     font-size: 25px;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
