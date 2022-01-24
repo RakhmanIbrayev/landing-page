@@ -61,7 +61,7 @@ body {
     padding: 10px 30px;
 }
 
-a, .hero-description, .hero-right, .hero .sign-up {
+a, .hero-description, .hero-right, .hero .sign-up, .text {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
@@ -69,4 +69,42 @@ a, .hero-description, .hero-right, .hero .sign-up {
 
 .header, .hero {
     background-color: #1F2937;
+}
+
+.content {
+    flex: 1;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px; 
+}
+
+.item {
+    max-width: 200px;
+}
+
+.card {
+    border: 3px solid #3882F6;
+    border-radius: 14px;
+    width: 180px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    text-align: center;
+    margin-top: 10px;
 }
