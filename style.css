@@ -54,14 +54,14 @@ body {
     background-color: grey;
 }
 
-.hero .sign-up {
+.btn-sign-up {
     border: none;
     border-radius: 8px;
     background-color: #3882F6;
     padding: 10px 30px;
 }
 
-a, .hero-description, .hero-right, .hero .sign-up, .text {
+a, .hero-description, .hero-right, .btn-sign-up, .text {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
@@ -107,4 +107,51 @@ a, .hero-description, .hero-right, .hero .sign-up, .text {
 .text {
     text-align: center;
     margin-top: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 400px;
+}
+
+.quote .the-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 10px;
+}
+
+.author {
+    text-align: right;
+    margin: 0;  
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border-radius: 15px;
+    margin: 100px 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+}
+
+#last {
+    border: 2px solid #E8E8E8;
+}
+
+.sign-up-text .first, .sign-up-text .second {
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.sign-up-text .first {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.sign-up-text .second {
+    font-size: 25px;
 }
