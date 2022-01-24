@@ -10,15 +10,17 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
     align-items: center;
-    padding: 20px 200px;
+    padding: 20px 250px;
+}
+
+.logo, .hero-title {
+    font-weight: 900;
+    color: #F9FAF8;
 }
 
 .logo {
     font-size: 24px;
-    font-weight: 900;
-    color: #F9FAF8
 }
 
 .links {
@@ -29,8 +31,42 @@ body {
     margin: 0;
 }
 
-a {
+.hero {
+    display: flex;
+    padding: 130px 250px 150px 250px;
+    gap: 48px;
+}
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-title {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.hero .sign-up {
+    border: none;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 10px 30px;
+}
+
+a, .hero-description, .hero-right, .hero .sign-up {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.header, .hero {
+    background-color: #1F2937;
 }
