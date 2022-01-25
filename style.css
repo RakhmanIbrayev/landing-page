@@ -35,6 +35,7 @@ body {
     display: flex;
     padding: 130px 250px 150px 250px;
     gap: 48px;
+    flex-wrap: wrap;
 }
 
 .hero-left {
@@ -89,6 +90,7 @@ a, .hero-description, .hero-right, .btn-sign-up, .text, .footer {
     justify-content: center;
     gap: 50px;
     margin-bottom: 100px; 
+    flex-wrap: wrap;
 }
 
 .item {
@@ -110,8 +112,10 @@ a, .hero-description, .hero-right, .btn-sign-up, .text, .footer {
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #E5E7EB;
-    padding: 100px 400px;
 }
 
 .quote .the-quote {
@@ -119,10 +123,10 @@ a, .hero-description, .hero-right, .btn-sign-up, .text, .footer {
     font-style: italic;
     color: #1F2937;
     margin-bottom: 10px;
+    max-width: 800px;
 }
 
 .author {
-    text-align: right;
     margin: 0;  
     font-size: 25px;
     font-weight: 900;
@@ -135,14 +139,13 @@ a, .hero-description, .hero-right, .btn-sign-up, .text, .footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    min-height: 150px;
 }
 
 #last {
     border: 2px solid #E8E8E8;
 }
 
-.sign-up-text .first, .sign-up-text .second {
+.sign-up-text .first, .second {
     color: #E5E7EB;
     margin: 0;
 }
@@ -150,10 +153,12 @@ a, .hero-description, .hero-right, .btn-sign-up, .text, .footer {
 .sign-up-text .first {
     font-size: 30px;
     font-weight: 900;
+    padding-top: 20px;
 }
 
 .sign-up-text .second {
     font-size: 25px;
+    padding-bottom: 20px;
 }
 
 .footer {
